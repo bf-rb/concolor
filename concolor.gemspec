@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Concolor::VERSION
   spec.authors       = ['alexmercury']
   spec.email         = ['rubybeastua@gmail.com']
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Console color}
+  spec.description   = %q{Colorize console text}
   spec.homepage      = 'https://github.com/rubybeast/concolor'
   spec.license       = 'MIT'
 
