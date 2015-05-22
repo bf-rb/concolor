@@ -14,3 +14,6 @@
 *.gem
 mkmf.log
 .idea/
+
+.rspec_status
+.vscode
