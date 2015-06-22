@@ -1,6 +1,5 @@
 # Concolor
-
-TODO: Write a gem description
+:computer:
 
 ## Installation
 
@@ -23,28 +22,28 @@ Or install it yourself as:
 ```ruby
 puts 'Some text'.style(:bold, :red)
 puts 'Some text'.style(:bold, :green, :red_bg)
-```
 
-Text color:
-    black
-    red
-    green
-    yellow
-    blue
-    magenta
-    cyan
-    white
+# Text color:
+:black
+:red
+:green
+:yellow
+:blue
+:magenta
+:cyan
+:white
+
+# Text style:
+:bold
+:underline
     
-Text style:
-    bold
-    underline
-    
-Text background color:
-    black_bg
-    red_bg
-    green_bg
-    yellow_bg
-    blue_bg
-    magenta_bg
-    cyan_bg
-    white_bg
+# Text background color:
+:black_bg
+:red_bg
+:green_bg
+:yellow_bg
+:blue_bg
+:magenta_bg
+:cyan_bg
+:white_bg
+```
