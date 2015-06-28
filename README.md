@@ -1,4 +1,4 @@
-# Concolor
+# Concolor [![Gem Version](https://badge.fury.io/rb/concolor.svg)](http://badge.fury.io/rb/concolor)
 :computer:
 
 ## Installation
