@@ -1,25 +1,30 @@
-# coding: utf-8
-lib = File.expand_path('../lib', __FILE__)
-$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'concolor/version'
+# frozen_string_literal: true
+
+require_relative 'lib/concolor/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'concolor'
-  spec.version       = Concolor::VERSION
-  spec.authors       = ['alexmercury']
-  spec.email         = ['rubybeastua@gmail.com']
-  spec.summary       = %q{Console color}
-  spec.description   = %q{Colorize console text}
-  spec.homepage      = 'https://github.com/rubybeast/concolor'
-  spec.license       = 'MIT'
+  spec.name = 'concolor'
+  spec.version = Concolor::Version.current
+  spec.authors = ['Alex Merkulov']
+  spec.email = ['rormercury@gmail.com']
 
-  spec.files         = %w(README.md Rakefile LICENSE.txt)
-  spec.files         += Dir['lib/**/*.rb']
+  spec.summary = 'Console colorize text'
+  spec.description = 'Colorize console text'
 
-  spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
-  spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
+  spec.homepage = 'https://github.com/bf-rb/concolor'
+  spec.license = 'MIT'
+  spec.required_ruby_version = '>= 2.7.0'
+
+  spec.metadata = {
+    'homepage_uri' => spec.homepage,
+    'changelog_uri' => 'https://github.com/bf-rb/concolor/blob/main/CHANGELOG.md',
+    'source_code_uri' => 'https://github.com/bf-rb/concolor',
+    'documentation_uri' => "https://rubydoc.org/gems/concolor/#{Concolor::Version.current}",
+    'bug_tracker_uri' => 'https://github.com/bf-rb/concolor/issues',
+    'rubygems_mfa_required' => 'true'
+  }
+
+  spec.files = %w[README.md Rakefile LICENSE.txt]
+  spec.files += Dir['lib/**/*.rb']
   spec.require_paths = ['lib']
-
-  spec.add_development_dependency 'bundler', '~> 1.7'
-  spec.add_development_dependency 'rake', '~> 10.0'
 end
