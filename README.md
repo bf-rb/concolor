@@ -2,7 +2,7 @@
 
 With `Concolor` you can change the fore- and background colors and text decorations when rendering text on terminals supporting ANSI escape codes. It adds the `concolor` method to `String`.
 
-[![Gem Version](https://badge.fury.io/rb/concolor.svg)](https://badge.fury.io/rb/concolor) [![Ruby CI](https://github.com/bf-rb/concolor/actions/workflows/ci.yml/badge.svg)](https://github.com/bf-rb/concolor/actions) [![GitHub](https://img.shields.io/github/license/bf-rb/concolor?label=License)](https://github.com/bf-rb/concolor/blob/main/LICENSE.txt) [![DOC](https://img.shields.io/badge/DOC-rubydoc.org-blue)](https://rubydoc.org/gems/concolor/0.0.1)
+[![Gem Version](https://badge.fury.io/rb/concolor.svg)](https://badge.fury.io/rb/concolor) [![Ruby CI](https://github.com/bf-rb/concolor/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bf-rb/concolor/actions) [![GitHub](https://img.shields.io/github/license/bf-rb/concolor?label=License)](https://github.com/bf-rb/concolor/blob/main/LICENSE.txt) [![DOC](https://img.shields.io/badge/DOC-rubydoc.org-blue)](https://rubydoc.org/gems/concolor/0.0.1)
 
 ## Installation
 

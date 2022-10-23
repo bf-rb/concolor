@@ -1,4 +1,4 @@
-Copyright (c) 2015 RubyBeast
+Copyright (c) 2022 BitForge
 
 MIT License
 
