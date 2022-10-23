@@ -1,6 +1,14 @@
+require:
+  - rubocop-rspec
+  - rubocop-rake
+  - rubocop-performance
+
 AllCops:
   NewCops: enable
   TargetRubyVersion: 2.7
 
 Layout/LineLength:
   Max: 120
+
+Metrics/MethodLength: 
+  Max: 20
