@@ -2,7 +2,7 @@
 
 RSpec.describe Concolor::Version do
   it 'MAJOR' do
-    expect(Concolor::Version::MAJOR).to be(0)
+    expect(Concolor::Version::MAJOR).to be(1)
   end
 
   it 'MINOR' do
@@ -10,10 +10,10 @@ RSpec.describe Concolor::Version do
   end
 
   it 'PATCH' do
-    expect(Concolor::Version::PATCH).to be(1)
+    expect(Concolor::Version::PATCH).to be(0)
   end
 
   it '#current' do
-    expect(described_class.current).to eql('0.0.1')
+    expect(described_class.current).to eql('1.0.0')
   end
 end
