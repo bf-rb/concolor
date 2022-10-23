@@ -32,44 +32,44 @@ puts 'Some text'.concolor(:bold, :red)
 | Symbol           |           | code |
 | :--------------- | :-------: | :--: |
 | `:default`       |           | *29* |
-| `:black`         | `#000000` | *30* |
-| `:red`           | `#CD0000` | *31* |
-| `:green`         | `#00CD00` | *32* |
-| `:yellow`        | `#CDCD00` | *33* |
-| `:blue`          | `#1E90FF` | *34* |
-| `:magenta`       | `#CD00CD` | *35* |
-| `:cyan`          | `#00CDCD` | *36* |
-| `:light_gray`    | `#E5E5E5` | *37* |
-| `:dark_gray`     | `#4C4C4C` | *90* |
-| `:light_red`     | `#FF0000` | *91* |
-| `:light_green`   | `#00FF00` | *92* |
-| `:light_yellow`  | `#FFFF00` | *93* |
-| `:light_blue`    | `#4682B4` | *94* |
-| `:light_magenta` | `#FF00FF` | *95* |
-| `:light_cyan`    | `#00FFFF` | *96* |
-| `:white`         | `#FFFFFF` | *97* |
+| `:black`         | ![#000000](https://via.placeholder.com/15/000000/000000.png) | *30* |
+| `:red`           | ![#CD0000](https://via.placeholder.com/15/CD0000/CD0000.png) | *31* |
+| `:green`         | ![#00CD00](https://via.placeholder.com/15/00CD00/00CD00.png) | *32* |
+| `:yellow`        | ![#CDCD00](https://via.placeholder.com/15/CDCD00/CDCD00.png) | *33* |
+| `:blue`          | ![#1E90FF](https://via.placeholder.com/15/1E90FF/1E90FF.png) | *34* |
+| `:magenta`       | ![#CD00CD](https://via.placeholder.com/15/CD00CD/CD00CD.png) | *35* |
+| `:cyan`          | ![#00CDCD](https://via.placeholder.com/15/00CDCD/00CDCD.png) | *36* |
+| `:light_gray`    | ![#E5E5E5](https://via.placeholder.com/15/E5E5E5/E5E5E5.png) | *37* |
+| `:dark_gray`     | ![#4C4C4C](https://via.placeholder.com/15/4C4C4C/4C4C4C.png) | *90* |
+| `:light_red`     | ![#FF0000](https://via.placeholder.com/15/FF0000/FF0000.png) | *91* |
+| `:light_green`   | ![#00FF00](https://via.placeholder.com/15/00FF00/00FF00.png) | *92* |
+| `:light_yellow`  | ![#FFFF00](https://via.placeholder.com/15/FFFF00/FFFF00.png) | *93* |
+| `:light_blue`    | ![#4682B4](https://via.placeholder.com/15/4682B4/4682B4.png) | *94* |
+| `:light_magenta` | ![#FF00FF](https://via.placeholder.com/15/FF00FF/FF00FF.png) | *95* |
+| `:light_cyan`    | ![#00FFFF](https://via.placeholder.com/15/00FFFF/00FFFF.png) | *96* |
+| `:white`         | ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/FFFFFF.png) | *97* |
 
 ### Background color
 
 | Symbol              |           | code  |
 | :------------------ | :-------: | :---: |
 | `:bg_default`       |           | *49*  |
-| `:bg_black`         | `#000000` | *40*  |
-| `:bg_red`           | `#CD0000` | *41*  |
-| `:bg_green`         | `#00CD00` | *42*  |
-| `:bg_yellow`        | `#CDCD00` | *43*  |
-| `:bg_blue`          | `#1E90FF` | *44*  |
-| `:bg_magenta`       | `#CD00CD` | *45*  |
-| `:bg_cyan`          | `#00CDCD` | *46*  |
-| `:bg_light_gray`    | `#E5E5E5` | *47*  |
-| `:bg_dark_gray`     | `#4C4C4C` | *100* |
-| `:bg_light_red`     | `#FF0000` | *101* |
-| `:bg_light_green`   | `#00FF00` | *102* |
-| `:bg_light_yellow`  | `#FFFF00` | *103* |
-| `:bg_light_blue`    | `#4682B4` | *104* |
-| `:bg_light_magenta` | `#FF00FF` | *105* |
-| `:bg_light_cyan`    | `#00FFFF` | *106* |
-| `:bg_white`         | `#FFFFFF` | *107* |
+| `:bg_black`         | ![#000000](https://via.placeholder.com/15/000000/000000.png) | *40*  |
+| `:bg_red`           | ![#CD0000](https://via.placeholder.com/15/CD0000/CD0000.png) | *41*  |
+| `:bg_green`         | ![#00CD00](https://via.placeholder.com/15/00CD00/00CD00.png) | *42*  |
+| `:bg_yellow`        | ![#CDCD00](https://via.placeholder.com/15/CDCD00/CDCD00.png) | *43*  |
+| `:bg_blue`          | ![#1E90FF](https://via.placeholder.com/15/1E90FF/1E90FF.png) | *44*  |
+| `:bg_magenta`       | ![#CD00CD](https://via.placeholder.com/15/CD00CD/CD00CD.png) | *45*  |
+| `:bg_cyan`          | ![#00CDCD](https://via.placeholder.com/15/00CDCD/00CDCD.png) | *46*  |
+| `:bg_light_gray`    | ![#E5E5E5](https://via.placeholder.com/15/E5E5E5/E5E5E5.png) | *47*  |
+| `:bg_dark_gray`     | ![#4C4C4C](https://via.placeholder.com/15/4C4C4C/4C4C4C.png) | *100* |
+| `:bg_light_red`     | ![#FF0000](https://via.placeholder.com/15/FF0000/FF0000.png) | *101* |
+| `:bg_light_green`   | ![#00FF00](https://via.placeholder.com/15/00FF00/00FF00.png) | *102* |
+| `:bg_light_yellow`  | ![#FFFF00](https://via.placeholder.com/15/FFFF00/FFFF00.png) | *103* |
+| `:bg_light_blue`    | ![#4682B4](https://via.placeholder.com/15/4682B4/4682B4.png) | *104* |
+| `:bg_light_magenta` | ![#FF00FF](https://via.placeholder.com/15/FF00FF/FF00FF.png) | *105* |
+| `:bg_light_cyan`    | ![#00FFFF](https://via.placeholder.com/15/00FFFF/00FFFF.png) | *106* |
+| `:bg_white`         | ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/FFFFFF.png) | *107* |
 
 ### Mode (modifying the style of text)
 
