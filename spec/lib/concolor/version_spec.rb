@@ -10,10 +10,14 @@ RSpec.describe Concolor::Version do
   end
 
   it 'PATCH' do
-    expect(Concolor::Version::PATCH).to be(0)
+    expect(Concolor::Version::PATCH).to be(1)
+  end
+
+  it 'CURRENT' do
+    expect(Concolor::Version::CURRENT).to eql('1.0.1')
   end
 
   it '#current' do
-    expect(described_class.current).to eql('1.0.0')
+    expect(described_class.current).to eql('1.0.1')
   end
 end

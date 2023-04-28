@@ -2,6 +2,8 @@
 
 module Concolor
   # Extension module for String class
+  #
+  # @since 1.0.1
   class String
     # @param str [String] some string object
     # @param options [Array<Symbol>]
@@ -9,28 +11,26 @@ module Concolor
       @str = str
       parsed = parse_options!(options)
 
-      @color = ::Concolor::Mappers::Color::DATA[parsed[:colors].first]
-      @bg_color = ::Concolor::Mappers::BgColor::DATA[parsed[:bg_colors].first]
+      @color = ::Concolor::Mappers::COLORS[parsed[:colors].first]
+      @bg_color = ::Concolor::Mappers::BG_COLORS[parsed[:bg_colors].first]
       @modes = parsed[:modes].map do |mode|
-        Concolor::Mappers::Mode::DATA[mode]
+        Concolor::Mappers::MODES[mode]
       end
     end
 
     # To string
+    #
     # @return [String]
     def to_s
       "\033[#{style}m#{@str}\033[0m"
     end
-
-    # def [](key)
-    #   self
-    # end
 
     alias inspect to_s
 
     private
 
     # Parse options
+    #
     # @param options [Array<Symbol>]
     # @return [Hash] { colors: [...], bg_colors: [...], modes: [...] }
     def parse_options!(options)
@@ -38,11 +38,11 @@ module Concolor
       wrong = []
 
       options.each do |opt|
-        if Concolor::Mappers::Color::DATA.key?(opt)
+        if Concolor::Mappers::COLORS.key?(opt)
           parsed[:colors].push(opt)
-        elsif Concolor::Mappers::Mode::DATA.key?(opt)
+        elsif Concolor::Mappers::MODES.key?(opt)
           parsed[:modes].push(opt)
-        elsif Concolor::Mappers::BgColor::DATA.key?(opt)
+        elsif Concolor::Mappers::BG_COLORS.key?(opt)
           parsed[:bg_colors].push(opt)
         else
           wrong.push(opt)
@@ -55,6 +55,7 @@ module Concolor
     end
 
     # Get style string
+    #
     # @return [String]
     def style
       [@color, @bg_color, @modes].flatten.compact.join(';')

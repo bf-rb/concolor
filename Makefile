@@ -8,6 +8,9 @@ test:
 build:
 	gem build concolor.gemspec
 
+push:
+	gem push concolor-1.0.1.gem
+
 validate: test
 	bundle exec rubocop
 
@@ -17,7 +20,7 @@ docs:
 
 # Run docs server
 docs-server: docs
-	bundle exe yard server	
+	bundle exe yard server -r
 
 # Run demo
 demo:

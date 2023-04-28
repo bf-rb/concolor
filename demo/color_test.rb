@@ -20,5 +20,3 @@ p 'White (reverse)'.concolor(:white, :reverse)
 p 'White'.concolor(:white, :hide)
 p 'White (cross)'.concolor(:white, :bg_black, :cross)
 p 'White (bold, underline)'.concolor(:white, :bg_black, :bold, :underline)
-
-# p 'White'.concolor[:test]
