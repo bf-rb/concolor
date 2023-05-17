@@ -1,27 +1,30 @@
-.PHONY: test demo
+.PHONY: test demo docs push
+
+GEM_VERSION := $(shell ruby -r ./lib/concolor/version.rb -e 'puts Concolor::Version::CURRENT')
 
 # Run test
 test:
-	bundle exec rspec ./spec
+	@bundle exec rspec ./spec
 
 # Build gem
 build:
-	gem build concolor.gemspec
+	@gem build concolor.gemspec
 
 push:
-	gem push concolor-1.0.1.gem
+	@gem push concolor-$(GEM_VERSION).gem
 
 validate: test
-	bundle exec rubocop
+	@bundle exec rubocop
 
 # Generate documentations
 docs:
-	bundle exe yard doc
+	@rm -rf doc
+	@bundle exe yard doc
 
 # Run docs server
 docs-server: docs
-	bundle exe yard server -r
+	@bundle exe yard server -r
 
 # Run demo
 demo:
-	ruby demo/color_test.rb
+	@ruby demo/color_test.rb

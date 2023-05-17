@@ -5,7 +5,9 @@ source 'https://rubygems.org'
 # Specify your gem's dependencies in concolor.gemspec
 gemspec
 
+gem 'github-markup', '~> 4.0', '>= 4.0.1'
 gem 'rake', '~> 13.0', '>= 13.0.6'
+gem 'redcarpet', '~> 3.6'
 gem 'rspec', '~> 3.12'
 gem 'rubocop', '~> 1.51'
 gem 'rubocop-performance', '~> 1.17', '>= 1.17.1'

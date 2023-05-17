@@ -1,6 +1,6 @@
 # Concolor
 
-[![Gem](https://img.shields.io/gem/v/concolor?color=e9573f&include_prereleases&logo=rubygems&style=for-the-badge)](https://rubygems.org/gems/concolor) [![Ruby CI](https://img.shields.io/github/actions/workflow/status/bf-rb/concolor/ci.yml?branch=main&label=Ruby%20CI&logo=githubactions&style=for-the-badge)](https://github.com/bf-rb/concolor/actions) [![RubyDoc](https://img.shields.io/badge/RubyDoc-e2e2e2.svg?style=for-the-badge&logo=readme)](https://bf-rb.github.io/concolor/v1.0.0/)
+[![Gem](https://img.shields.io/gem/v/concolor?color=e9573f&include_prereleases&logo=rubygems&style=for-the-badge)](https://rubygems.org/gems/concolor) [![Ruby CI](https://img.shields.io/github/actions/workflow/status/bf-rb/concolor/ci.yml?branch=main&label=Ruby%20CI&logo=githubactions&style=for-the-badge)](https://github.com/bf-rb/concolor/actions) [![RubyDoc](https://img.shields.io/badge/RubyDoc-e2e2e2.svg?style=for-the-badge&logo=readme)](https://bf-rb.github.io/concolor/v1.0.1/)
 
 With `Concolor` you can change the fore- and background colors and text decorations when rendering text on terminals supporting ANSI escape codes. It adds the `concolor` method to `String` objects.
 
@@ -66,7 +66,6 @@ puts 'Some text'.concolor(:bold, :red)
 [#00FFFF]: https://via.placeholder.com/15/00FFFF/00FFFF.png
 [#FFFFFF]: https://via.placeholder.com/15/FFFFFF/FFFFFF.png
 
-
 | Foreground color | code |   color    | Background color   | code  |
 | :--------------- | :--: | :--------: | :----------------- | :---: |
 | `:default`       | *29* |            | `:bg_default`      | *49*  |
@@ -92,12 +91,12 @@ puts 'Some text'.concolor(:bold, :red)
 | Symbol        | Description | code |
 | :------------ | :---------- | :---: |
 | `:reset`      | Reset all SGR effects to their default | *0* |
-| `:bold`       | **Bold or increased intensity** | *1* |
+| `:bold`       | Bold or increased intensity | *1* |
 | `:faint`      | Faint or decreased intensity | *2* |
-| `:italic`     | *Italic* | *3* |
+| `:italic`     | Italic | *3* |
 | `:underline`  | Singly underlined | *4* |
 | `:blink`      | Blink (slow)  | *5* |
 | `:blink_fast` | Blink (fast)  | *6* |
 | `:reverse`    | Reverse (invert the foreground and background colors) | *7* |
 | `:hide`       | Hidden (useful for passwords) | *8* |
-| `:cross`      | ~~Cross-out~~ | *9* |
+| `:cross`      | Cross-out | *9* |

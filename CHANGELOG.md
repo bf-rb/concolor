@@ -8,13 +8,29 @@
 
 ### Changed
 
+- `nil`
+
+### Fixed
+
+- `nil`
+
+---
+
+## [1.0.1] - May 17, 2023
+
+### Added in 1.0.1
+
+- `nil`
+
+### Changed in 1.0.1
+
 - deprecated `Concolor::Version.current`
 - removed `Concolor::Mappers::*` modules and added new constants:
   - `Concolor::Mappers::COLORS`
   - `Concolor::Mappers::BG_COLORS`
   - `Concolor::Mappers::MODES`
 
-### Fixed
+### Fixed in 1.0.1
 
 - `nil`
 
